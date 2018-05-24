@@ -8,8 +8,9 @@ import { PageNotFoundComponent } from "./pageNotFound/pageNotFound.component"
 // The path is what is displayes in the address bar;
 // the component is what to instantiate and put at the router-outlet.
 export const appRoutes: Routes = [
-    { path: "Standings", component: StandingsComponent },
-    { path: "Scoring", component: ScoringComponent },
-    { path: "Admin", component: AdminComponent },
+    { path: "", redirectTo: "/standings", pathMatch: "full" },
+    { path: "standings", component: StandingsComponent },
+    { path: "scoring", component: ScoringComponent },
+    { path: "admin", component: AdminComponent },
     { path: "**", component: PageNotFoundComponent }
 ];

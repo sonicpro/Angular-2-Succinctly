@@ -3,7 +3,7 @@
 */
 
 import { Component, ViewEncapsulation } from "@angular/core"
-import { SoccerService } from "../services/SoccerService"
+import { SoccerService } from "../services/soccer.service"
 
 @Component({
     encapsulation: ViewEncapsulation.Native, // Use Shadow DOM

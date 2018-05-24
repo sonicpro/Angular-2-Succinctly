@@ -1,4 +1,4 @@
-/* Schedule interface */
+/** iSchedule interface */
 
 export interface iSchedule {
     id: number,
