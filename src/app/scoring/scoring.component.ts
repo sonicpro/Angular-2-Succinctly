@@ -1,6 +1,4 @@
-/*
-  Scoring component
-*/
+/** Scoring component */
 
 import { Component, ViewEncapsulation } from "@angular/core"
 import { SoccerService } from "../services/soccer.service"
