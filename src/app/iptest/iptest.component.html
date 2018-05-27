@@ -1,0 +1,8 @@
+<h3>IP test</h3>
+<br />
+<div class="container" *ngIf="ErrMsg.length == 0">
+    <p>You IP is: {{IPAddr}}</p>
+</div>
+<div class="container" *ngIf="ErrMsg.length > 0">
+    <p>Error occurred: {{ErrMsg}}</p>
+</div>
